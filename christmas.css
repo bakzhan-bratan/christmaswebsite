@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, crimson, firebrick);
+    position: absolute;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    font-size: 40px;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+
+.christmas-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
